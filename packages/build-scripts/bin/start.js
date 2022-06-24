@@ -7,7 +7,7 @@ const path = require('path');
 const log = require('../lib/utils/log');
 
 let child = null;
-const rawArgv = parse(process.argv.slice(2));
+const rawArgv = parse(process.argv.slice(2)); // ??? 为什么不传过来，再解析一遍
 const scriptPath = require.resolve('./child-process-start.js');
 const configPath = path.resolve(rawArgv.config || 'build.json');
 
