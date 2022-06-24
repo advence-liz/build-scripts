@@ -4,17 +4,26 @@
     "outDir": "lib",
     "module": "commonjs",
     "moduleResolution": "node",
-    "strict": false,
+    "strict": true,
     "strictNullChecks": false,
     "jsx": "react",
     "target": "esnext",
     "experimentalDecorators": true,
     "skipLibCheck": true,
     "declaration": true,
-    "lib": ["dom", "es5", "es6", "es7", "scripthost", "es2018.promise"],
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es7",
+      "scripthost",
+      "es2018.promise"
+    ],
     "emitDecoratorMetadata": true,
     "preserveConstEnums": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["src/**/*"]
+  "include": [
+    "src/**/*"
+  ]
 }

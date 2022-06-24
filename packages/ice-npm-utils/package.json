@@ -1,0 +1,58 @@
+{
+  "_from": "ice-npm-utils",
+  "_id": "ice-npm-utils@3.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-NweSv8MBVS+wUZfffdtqSkF3rMvgBNGR3lrBjotmCNz6OYjDVgEwCuifGctgX+ymlub/xSRLeKXmHxRqazT2wg==",
+  "_location": "/ice-npm-utils",
+  "_phantomChildren": {
+    "graceful-fs": "4.2.10"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ice-npm-utils",
+    "name": "ice-npm-utils",
+    "escapedName": "ice-npm-utils",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmmirror.com/ice-npm-utils/-/ice-npm-utils-3.0.2.tgz",
+  "_shasum": "53ce562591afb63c912d988cb58fad4354a67de6",
+  "_spec": "ice-npm-utils",
+  "_where": "/Users/lizhuo13/lowcode/build-scripts",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@appworks/constant": "^0.1.2",
+    "axios": "^0.23.0",
+    "fs-extra": "^10.0.0",
+    "mkdirp": "^1.0.0",
+    "semver": "^7.0.0",
+    "tar": "^6.0.0",
+    "url-join": "^4.0.1"
+  },
+  "deprecated": false,
+  "description": "npm utils for ice",
+  "engines": {
+    "node": ">=12"
+  },
+  "files": [
+    "lib"
+  ],
+  "gitHead": "fc5b35f95ab4cc24898845916acf598c2f34d576",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "ice-npm-utils",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "version": "3.0.2"
+}

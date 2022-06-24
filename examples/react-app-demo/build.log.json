@@ -1,0 +1,38 @@
+{
+  "args": {},
+  "config": [
+    {
+      "mode": "development",
+      "output": {
+        "path": "/Users/lizhuo13/lowcode/build-scripts/examples/react-app-demo/dist"
+      },
+      "entry": {
+        "index": [
+          "./index.js"
+        ]
+      }
+    },
+    {
+      "mode": "development",
+      "output": {
+        "path": "/Users/lizhuo13/lowcode/build-scripts/examples/react-app-demo/web"
+      },
+      "entry": {
+        "index": [
+          "./index.js"
+        ]
+      }
+    },
+    {
+      "mode": "development",
+      "output": {
+        "path": "/Users/lizhuo13/lowcode/build-scripts/examples/react-app-demo/weex"
+      },
+      "entry": {
+        "index": [
+          "./index.js"
+        ]
+      }
+    }
+  ]
+}
